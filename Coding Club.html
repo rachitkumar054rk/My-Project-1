@@ -1,0 +1,100 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+</head>
+<body>
+    <a href="Events">Events</a> |
+    <a href="Register">Register</a>
+    <h1>Coding Club</h1>
+    <h2>Upcoming Events</h2>
+    <table border="5">
+    <caption><b>Club Events</b></caption>
+    <tr>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Venue</th>
+    </tr>
+    <tr>
+        <td>HTML Workshop</td>
+        <td>12 Nov</td>
+        <td>Seminar Hall 1</td>
+    </tr>
+    <tr>
+        <td>Hackathon</td>
+        <td>15 Nov</td>
+        <td>Seminar Hall 2</td>
+    </tr>
+    <tr>
+            <th colspan="3">Total Events:2 </th>
+        </tr>
+    </table>
+    <h2>Register</h2>
+    <label for="Name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        <br>
+        <br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"required>
+
+        <br>
+        <br>
+          <label for="passwod">Password:</label>
+          <input type="password" id="password" name="password" required>
+
+        <br>
+        <br>
+
+          <label for="date of birth">Date Of Birth:</label>
+          <input type="date" id="DOB" name="DOB" placeholder="Date of Birth" required>
+
+        <br>
+        <br>
+
+          <label for="phone">Phone:</label>
+          <input type="number" id="phone" name="phone" required>
+                
+        <br>
+        <br>
+                
+          <label for="gender"> Gender: </label>
+          <input type="radio" name="gender" value="Male" required> Male </input>      
+          <input type="radio" name="gender" value="Female" required> Female </input>        
+          <input type="radio" name="gender" value="Other" required> Other </input>
+
+        <br>
+        <br>
+
+          <label for="interest">Interests:</label>
+          <input type="checkbox" name="interest" value="Web">Web</input>
+          <input type="checkbox" name="interest" value="DSA"> DSA</input>
+    
+        <br>
+        <br>
+
+          <label for="branch">Branch</label>
+          <select id="branch" name="branch"> 
+          <option value=""disabled selected>Select a Branch</option>
+          <option value="BSC">BSC</option>
+          <option value="BTech">BTech</option>
+          <option value="BCA">BCA</option>
+    </select>
+
+        <br>
+        <br>
+
+          <label for="reason">Why do you want to Join?</label>
+
+        <br>
+
+          <textarea id="reason" name="reason" rows="4" cols="30"></textarea>
+
+        <br>
+        <br>
+
+          <button type="submit">Submit</button>
+</body>
+</html>
